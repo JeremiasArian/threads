@@ -1,11 +1,8 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }/* The JVM creates a thread responsible for executing the main method,
+/* The JVM creates a thread responsible for executing the main method,
 so this "default" thread created by the JVM is going to be the first one.
  */
-    public class Main {
-        public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {
             // Create a second thread and stops it.
 
             // Thread thread = new Thread();
@@ -21,6 +18,5 @@ so this "default" thread created by the JVM is going to be the first one.
             Runnable runnable = new FourthThread();
             Thread thread = new Thread(runnable);
             thread.start();
-        }
     }
 }
