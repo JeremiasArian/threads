@@ -4,6 +4,6 @@
 
  ### Instructions
 
- Clone this repo with the command `git clone https://github.com/JeremiasArian/threads-and-concurrency`.
+ Clone this repo with the command `git clone https://github.com/JeremiasArian/threads.git`.
 
  Then open the folder with Intellij.
